@@ -15,6 +15,146 @@
 		4304F4C8258646FC00E1086E /* Euphoria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4C6258646FC00E1086E /* Euphoria.xcdatamodeld */; };
 		4304F4D4258646FC00E1086E /* EuphoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4D3258646FC00E1086E /* EuphoriaTests.swift */; };
 		4304F4DF258646FC00E1086E /* EuphoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4DE258646FC00E1086E /* EuphoriaUITests.swift */; };
+		4304F64D258648CD00E1086E /* networksetuplibrary.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4F0258648BE00E1086E /* networksetuplibrary.c */; };
+		4304F64E258648CD00E1086E /* rich.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4F1258648BE00E1086E /* rich.c */; };
+		4304F64F258648CD00E1086E /* adwin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4F2258648BE00E1086E /* adwin.c */; };
+		4304F650258648CD00E1086E /* setldef.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4F3258648BE00E1086E /* setldef.c */; };
+		4304F651258648CD00E1086E /* stringutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4F4258648BF00E1086E /* stringutil.c */; };
+		4304F652258648CD00E1086E /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4F5258648BF00E1086E /* print.c */; };
+		4304F653258648CD00E1086E /* oops.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4F6258648BF00E1086E /* oops.c */; };
+		4304F654258648CD00E1086E /* toc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4F7258648BF00E1086E /* toc.c */; };
+		4304F655258648CD00E1086E /* spell.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4F8258648BF00E1086E /* spell.c */; };
+		4304F656258648CD00E1086E /* MachOWrapper.cp in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4F9258648BF00E1086E /* MachOWrapper.cp */; };
+		4304F657258648CD00E1086E /* nag.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4FA258648BF00E1086E /* nag.c */; };
+		4304F658258648CD00E1086E /* tabmania.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4FB258648BF00E1086E /* tabmania.c */; };
+		4304F659258648CD00E1086E /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4FC258648BF00E1086E /* xml.c */; };
+		4304F65A258648CD00E1086E /* light.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4FD258648BF00E1086E /* light.c */; };
+		4304F65B258648CD00E1086E /* ph.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4FE258648BF00E1086E /* ph.c */; };
+		4304F65C258648CD00E1086E /* mailxfer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4FF258648BF00E1086E /* mailxfer.c */; };
+		4304F65D258648CD00E1086E /* menusharing.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F500258648C000E1086E /* menusharing.c */; };
+		4304F65E258648CD00E1086E /* netscapeplugins.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F501258648C000E1086E /* netscapeplugins.c */; };
+		4304F65F258648CD00E1086E /* newhtml.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5C6258648C100E1086E /* newhtml.c */; };
+		4304F660258648CD00E1086E /* toolbar.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5C7258648C100E1086E /* toolbar.c */; };
+		4304F661258648CD00E1086E /* linkwin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5C8258648C100E1086E /* linkwin.c */; };
+		4304F662258648CD00E1086E /* palmconduitae.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5C9258648C100E1086E /* palmconduitae.c */; };
+		4304F663258648CD00E1086E /* threading.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5CA258648C100E1086E /* threading.c */; };
+		4304F664258648CD00E1086E /* schizo.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5CB258648C100E1086E /* schizo.c */; };
+		4304F665258648CD00E1086E /* shame.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5CC258648C100E1086E /* shame.c */; };
+		4304F666258648CD00E1086E /* trans.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5CD258648C200E1086E /* trans.c */; };
+		4304F667258648CD00E1086E /* mbwin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5CE258648C200E1086E /* mbwin.c */; };
+		4304F668258648CD00E1086E /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5CF258648C200E1086E /* md5.c */; };
+		4304F669258648CD00E1086E /* messact.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5D0258648C200E1086E /* messact.c */; };
+		4304F66A258648CD00E1086E /* navUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5D1258648C200E1086E /* navUtils.c */; };
+		4304F66B258648CD00E1086E /* menu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5D2258648C200E1086E /* menu.c */; };
+		4304F66C258648CD00E1086E /* uudecode.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5D3258648C200E1086E /* uudecode.c */; };
+		4304F66D258648CD00E1086E /* lex822.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5D4258648C300E1086E /* lex822.c */; };
+		4304F66E258648CD00E1086E /* textw.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5D5258648C300E1086E /* textw.c */; };
+		4304F66F258648CD00E1086E /* UnloadSeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5D6258648C300E1086E /* UnloadSeg.c */; };
+		4304F670258648CD00E1086E /* aeutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5D7258648C300E1086E /* aeutil.c */; };
+		4304F671258648CD00E1086E /* mailbox.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5D8258648C300E1086E /* mailbox.c */; };
+		4304F672258648CD00E1086E /* message.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5D9258648C300E1086E /* message.c */; };
+		4304F673258648CD00E1086E /* anal.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5DA258648C300E1086E /* anal.c */; };
+		4304F674258648CD00E1086E /* table.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5DB258648C300E1086E /* table.c */; };
+		4304F675258648CD00E1086E /* osxabsync.cp in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5DC258648C400E1086E /* osxabsync.cp */; };
+		4304F676258648CD00E1086E /* register.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5DD258648C400E1086E /* register.c */; };
+		4304F677258648CD00E1086E /* multi.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5DE258648C400E1086E /* multi.c */; };
+		4304F678258648CD00E1086E /* uupc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5DF258648C400E1086E /* uupc.c */; };
+		4304F679258648CD00E1086E /* paywin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5E0258648C400E1086E /* paywin.c */; };
+		4304F67A258648CD00E1086E /* wrappers.cp in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5E1258648C400E1086E /* wrappers.cp */; };
+		4304F67B258648CD00E1086E /* TransStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5E2258648C400E1086E /* TransStream.c */; };
+		4304F67C258648CD00E1086E /* listcdef.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5E3258648C400E1086E /* listcdef.c */; };
+		4304F67D258648CD00E1086E /* mime.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5E4258648C400E1086E /* mime.c */; };
+		4304F67E258648CD00E1086E /* peteuserpane.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5E5258648C400E1086E /* peteuserpane.c */; };
+		4304F67F258648CD00E1086E /* link.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5E6258648C500E1086E /* link.c */; };
+		4304F680258648CD00E1086E /* nickwin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5E7258648C500E1086E /* nickwin.c */; };
+		4304F681258648CD00E1086E /* statmng.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5E8258648C500E1086E /* statmng.c */; };
+		4304F682258648CD00E1086E /* tefuncs.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5E9258648C500E1086E /* tefuncs.c */; };
+		4304F683258648CD00E1086E /* updatewin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5EA258648C500E1086E /* updatewin.c */; };
+		4304F684258648CD00E1086E /* stickypopup.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5EB258648C500E1086E /* stickypopup.c */; };
+		4304F685258648CD00E1086E /* msinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5EC258648C500E1086E /* msinfo.c */; };
+		4304F686258648CD00E1086E /* vcard.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5ED258648C500E1086E /* vcard.c */; };
+		4304F687258648CD00E1086E /* statwin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5EE258648C500E1086E /* statwin.c */; };
+		4304F688258648CD00E1086E /* task_ldef.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5EF258648C500E1086E /* task_ldef.c */; };
+		4304F689258648CD00E1086E /* mstoc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5F0258648C500E1086E /* mstoc.c */; };
+		4304F68A258648CD00E1086E /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5F1258648C500E1086E /* sort.c */; };
+		4304F68B258648CD00E1086E /* proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5F2258648C600E1086E /* proxy.c */; };
+		4304F68C258648CD00E1086E /* mbdrawer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5F3258648C600E1086E /* mbdrawer.c */; };
+		4304F68D258648CD00E1086E /* progress.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5F4258648C600E1086E /* progress.c */; };
+		4304F68E258648CD00E1086E /* mstore.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5F5258648C600E1086E /* mstore.c */; };
+		4304F68F258648CD00E1086E /* linkmng.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5F6258648C600E1086E /* linkmng.c */; };
+		4304F690258648CD00E1086E /* ldaplibglue.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5F7258648C600E1086E /* ldaplibglue.c */; };
+		4304F691258648CD00E1086E /* labelfield.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5F8258648C600E1086E /* labelfield.c */; };
+		4304F692258648CD00E1086E /* modeless.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5F9258648C600E1086E /* modeless.c */; };
+		4304F693258648CD00E1086E /* listview.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5FA258648C700E1086E /* listview.c */; };
+		4304F694258648CD00E1086E /* msiddb.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5FB258648C700E1086E /* msiddb.c */; };
+		4304F695258648CD00E1086E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5FC258648C700E1086E /* main.c */; };
+		4304F696258648CD00E1086E /* lineio.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5FD258648C700E1086E /* lineio.c */; };
+		4304F697258648CD00E1086E /* wazoo.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5FE258648C700E1086E /* wazoo.c */; };
+		4304F698258648CD00E1086E /* utl.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F5FF258648C700E1086E /* utl.c */; };
+		4304F699258648CD00E1086E /* signaturewin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F600258648C700E1086E /* signaturewin.c */; };
+		4304F69A258648CD00E1086E /* nickae.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F601258648C700E1086E /* nickae.c */; };
+		4304F69B258648CD00E1086E /* prefaudit.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F602258648C800E1086E /* prefaudit.c */; };
+		4304F69C258648CD00E1086E /* OpenSSL.cp in Sources */ = {isa = PBXBuildFile; fileRef = 4304F603258648C800E1086E /* OpenSSL.cp */; };
+		4304F69D258648CD00E1086E /* sysdefs.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F604258648C800E1086E /* sysdefs.c */; };
+		4304F69E258648CD00E1086E /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F605258648C800E1086E /* log.c */; };
+		4304F69F258648CD00E1086E /* preflimits.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F606258648C800E1086E /* preflimits.c */; };
+		4304F6A0258648CD00E1086E /* toolbarpopup.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F607258648C800E1086E /* toolbarpopup.c */; };
+		4304F6A1258648CD00E1086E /* url.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F608258648C800E1086E /* url.c */; };
+		4304F6A2258648CD00E1086E /* unicode.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F609258648C800E1086E /* unicode.c */; };
+		4304F6A3258648CD00E1086E /* taskProgress.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F60A258648C800E1086E /* taskProgress.c */; };
+		4304F6A4258648CD00E1086E /* tlate_ldef.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F60B258648C900E1086E /* tlate_ldef.c */; };
+		4304F6A5258648CD00E1086E /* pop.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F60C258648C900E1086E /* pop.c */; };
+		4304F6A6258648CD00E1086E /* peteglue.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F60D258648C900E1086E /* peteglue.c */; };
+		4304F6A7258648CD00E1086E /* acap.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F60E258648C900E1086E /* acap.c */; };
+		4304F6A8258648CD00E1086E /* nickmng.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F60F258648C900E1086E /* nickmng.c */; };
+		4304F6A9258648CD00E1086E /* personalitieswin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F610258648C900E1086E /* personalitieswin.c */; };
+		4304F6AA258648CD00E1086E /* mywindow.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F611258648C900E1086E /* mywindow.c */; };
+		4304F6AB258648CD00E1086E /* sslCerts.cp in Sources */ = {isa = PBXBuildFile; fileRef = 4304F612258648C900E1086E /* sslCerts.cp */; };
+		4304F6AC258648CD00E1086E /* prefenable.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F613258648C900E1086E /* prefenable.c */; };
+		4304F6AD258648CD00E1086E /* regexp.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F614258648CA00E1086E /* regexp.c */; };
+		4304F6AE258648CD00E1086E /* spool.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F615258648CA00E1086E /* spool.c */; };
+		4304F6AF258648CD00E1086E /* speechutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F616258648CA00E1086E /* speechutil.c */; };
+		4304F6B0258648CD00E1086E /* msmaildb.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F617258648CA00E1086E /* msmaildb.c */; };
+		4304F6B1258648CD00E1086E /* squish.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F618258648CA00E1086E /* squish.c */; };
+		4304F6B2258648CD00E1086E /* prefs.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F619258648CA00E1086E /* prefs.c */; };
+		4304F6B3258648CD00E1086E /* ldaputils.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F61A258648CA00E1086E /* ldaputils.c */; };
+		4304F6B4258648CD00E1086E /* scriptmenu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F61B258648CA00E1086E /* scriptmenu.c */; };
+		4304F6B5258648CD00E1086E /* tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F61C258648CB00E1086E /* tcp.c */; };
+		4304F6B6258648CD00E1086E /* timebomb.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F61D258648CB00E1086E /* timebomb.c */; };
+		4304F6B7258648CD00E1086E /* sendmail.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F61E258648CB00E1086E /* sendmail.c */; };
+		4304F6B8258648CD00E1086E /* searchwin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F61F258648CB00E1086E /* searchwin.c */; };
+		4304F6B9258648CD00E1086E /* pgpout.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F620258648CB00E1086E /* pgpout.c */; };
+		4304F6BA258648CD00E1086E /* sasl.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F621258648CB00E1086E /* sasl.c */; };
+		4304F6BB258648CD00E1086E /* address.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F622258648CB00E1086E /* address.c */; };
+		4304F6BC258648CD00E1086E /* stationerywin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F623258648CB00E1086E /* stationerywin.c */; };
+		4304F6BD258648CD00E1086E /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F624258648CB00E1086E /* util.c */; };
+		4304F6BE258648CD00E1086E /* search.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F625258648CB00E1086E /* search.c */; };
+		4304F6BF258648CD00E1086E /* adutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F626258648CB00E1086E /* adutil.c */; };
+		4304F6C0258648CD00E1086E /* ldef.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F627258648CC00E1086E /* ldef.c */; };
+		4304F6C1258648CD00E1086E /* pgpin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F628258648CC00E1086E /* pgpin.c */; };
+		4304F6C2258648CD00E1086E /* fs_mac.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F62A258648CC00E1086E /* fs_mac.c */; };
+		4304F6C3258648CD00E1086E /* netmsg.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F62B258648CC00E1086E /* netmsg.c */; };
+		4304F6C4258648CD00E1086E /* ftl_mac.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F62C258648CC00E1086E /* ftl_mac.c */; };
+		4304F6C5258648CD00E1086E /* mail.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F62D258648CC00E1086E /* mail.c */; };
+		4304F6C6258648CD00E1086E /* smanager.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F62E258648CC00E1086E /* smanager.c */; };
+		4304F6C7258648CD00E1086E /* env_mac.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F62F258648CC00E1086E /* env_mac.c */; };
+		4304F6C8258648CD00E1086E /* auth_log.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F630258648CC00E1086E /* auth_log.c */; };
+		4304F6C9258648CD00E1086E /* rfc822.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F631258648CC00E1086E /* rfc822.c */; };
+		4304F6CA258648CD00E1086E /* linkage.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F63E258648CC00E1086E /* linkage.c */; };
+		4304F6CB258648CD00E1086E /* nl_mac.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F641258648CC00E1086E /* nl_mac.c */; };
+		4304F6CC258648CD00E1086E /* mtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F642258648CC00E1086E /* mtest.c */; };
+		4304F6CD258648CD00E1086E /* imap4r1.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F643258648CC00E1086E /* imap4r1.c */; };
+		4304F6CE258648CD00E1086E /* linkage.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F644258648CC00E1086E /* linkage.c */; };
+		4304F6CF258648CD00E1086E /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F645258648CC00E1086E /* misc.c */; };
+		4304F6D0258648CD00E1086E /* auths.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F646258648CC00E1086E /* auths.c */; };
+		4304F6D1258648CD00E1086E /* os_mac.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F647258648CC00E1086E /* os_mac.c */; };
+		4304F6D2258648CD00E1086E /* winutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F648258648CC00E1086E /* winutil.c */; };
+		4304F6D3258648CD00E1086E /* makefilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F649258648CC00E1086E /* makefilter.c */; };
+		4304F6D4258648CD00E1086E /* nickexp.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F64A258648CC00E1086E /* nickexp.c */; };
+		4304F6D5258648CD00E1086E /* lmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F64B258648CC00E1086E /* lmgr.c */; };
+		4304F6D6258648CD00E1086E /* ssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 4304F64C258648CC00E1086E /* ssl.c */; };
+		4304F6DB2586495C00E1086E /* acap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F6DA2586495C00E1086E /* acap.swift */; };
+		4304F6E025864A2900E1086E /* address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F6DF25864A2900E1086E /* address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +190,352 @@
 		4304F4DA258646FC00E1086E /* EuphoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuphoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4304F4DE258646FC00E1086E /* EuphoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuphoriaUITests.swift; sourceTree = "<group>"; };
 		4304F4E0258646FC00E1086E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4304F4EF258648BE00E1086E /* Euphoria-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Euphoria-Bridging-Header.h"; sourceTree = "<group>"; };
+		4304F4F0258648BE00E1086E /* networksetuplibrary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = networksetuplibrary.c; path = ../../Eudora/V624/networksetuplibrary.c; sourceTree = "<group>"; };
+		4304F4F1258648BE00E1086E /* rich.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rich.c; path = ../../Eudora/V624/rich.c; sourceTree = "<group>"; };
+		4304F4F2258648BE00E1086E /* adwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adwin.c; path = ../../Eudora/V624/adwin.c; sourceTree = "<group>"; };
+		4304F4F3258648BE00E1086E /* setldef.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = setldef.c; path = ../../Eudora/V624/setldef.c; sourceTree = "<group>"; };
+		4304F4F4258648BF00E1086E /* stringutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stringutil.c; path = ../../Eudora/V624/stringutil.c; sourceTree = "<group>"; };
+		4304F4F5258648BF00E1086E /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = print.c; path = ../../Eudora/V624/print.c; sourceTree = "<group>"; };
+		4304F4F6258648BF00E1086E /* oops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = oops.c; path = ../../Eudora/V624/oops.c; sourceTree = "<group>"; };
+		4304F4F7258648BF00E1086E /* toc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = toc.c; path = ../../Eudora/V624/toc.c; sourceTree = "<group>"; };
+		4304F4F8258648BF00E1086E /* spell.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spell.c; path = ../../Eudora/V624/spell.c; sourceTree = "<group>"; };
+		4304F4F9258648BF00E1086E /* MachOWrapper.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MachOWrapper.cp; path = ../../Eudora/V624/MachOWrapper.cp; sourceTree = "<group>"; };
+		4304F4FA258648BF00E1086E /* nag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nag.c; path = ../../Eudora/V624/nag.c; sourceTree = "<group>"; };
+		4304F4FB258648BF00E1086E /* tabmania.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tabmania.c; path = ../../Eudora/V624/tabmania.c; sourceTree = "<group>"; };
+		4304F4FC258648BF00E1086E /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xml.c; path = ../../Eudora/V624/xml.c; sourceTree = "<group>"; };
+		4304F4FD258648BF00E1086E /* light.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = light.c; path = ../../Eudora/V624/light.c; sourceTree = "<group>"; };
+		4304F4FE258648BF00E1086E /* ph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ph.c; path = ../../Eudora/V624/ph.c; sourceTree = "<group>"; };
+		4304F4FF258648BF00E1086E /* mailxfer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mailxfer.c; path = ../../Eudora/V624/mailxfer.c; sourceTree = "<group>"; };
+		4304F500258648C000E1086E /* menusharing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = menusharing.c; path = ../../Eudora/V624/menusharing.c; sourceTree = "<group>"; };
+		4304F501258648C000E1086E /* netscapeplugins.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = netscapeplugins.c; path = ../../Eudora/V624/netscapeplugins.c; sourceTree = "<group>"; };
+		4304F503258648C000E1086E /* imapmailboxes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapmailboxes.h; sourceTree = "<group>"; };
+		4304F504258648C000E1086E /* stickypopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stickypopup.h; sourceTree = "<group>"; };
+		4304F505258648C000E1086E /* ldaplibglue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldaplibglue.h; sourceTree = "<group>"; };
+		4304F506258648C000E1086E /* allheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
+		4304F507258648C000E1086E /* adwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adwin.h; sourceTree = "<group>"; };
+		4304F508258648C000E1086E /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		4304F509258648C000E1086E /* nickwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nickwin.h; sourceTree = "<group>"; };
+		4304F50A258648C000E1086E /* pgpin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pgpin.h; sourceTree = "<group>"; };
+		4304F50B258648C000E1086E /* progress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = progress.h; sourceTree = "<group>"; };
+		4304F50C258648C000E1086E /* modeless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modeless.h; sourceTree = "<group>"; };
+		4304F50D258648C000E1086E /* passwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = passwd.h; sourceTree = "<group>"; };
+		4304F50E258648C000E1086E /* tcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcp.h; sourceTree = "<group>"; };
+		4304F50F258648C000E1086E /* audit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audit.h; sourceTree = "<group>"; };
+		4304F510258648C000E1086E /* squish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = squish.h; sourceTree = "<group>"; };
+		4304F511258648C000E1086E /* spool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spool.h; sourceTree = "<group>"; };
+		4304F512258648C000E1086E /* palmconduitae.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = palmconduitae.h; sourceTree = "<group>"; };
+		4304F513258648C000E1086E /* messact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messact.h; sourceTree = "<group>"; };
+		4304F514258648C000E1086E /* myssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myssl.h; sourceTree = "<group>"; };
+		4304F515258648C000E1086E /* trans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trans.h; sourceTree = "<group>"; };
+		4304F516258648C000E1086E /* npupp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = npupp.h; sourceTree = "<group>"; };
+		4304F517258648C000E1086E /* lex822.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lex822.h; sourceTree = "<group>"; };
+		4304F518258648C000E1086E /* mime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mime.h; sourceTree = "<group>"; };
+		4304F519258648C000E1086E /* listcdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listcdef.h; sourceTree = "<group>"; };
+		4304F51A258648C000E1086E /* lineio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lineio.h; sourceTree = "<group>"; };
+		4304F51B258648C000E1086E /* sslCerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sslCerts.h; sourceTree = "<group>"; };
+		4304F51C258648C000E1086E /* html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = html.h; sourceTree = "<group>"; };
+		4304F51D258648C000E1086E /* sasl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sasl.h; sourceTree = "<group>"; };
+		4304F51E258648C000E1086E /* export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = export.h; sourceTree = "<group>"; };
+		4304F51F258648C000E1086E /* nickexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nickexp.h; sourceTree = "<group>"; };
+		4304F520258648C000E1086E /* mydefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mydefs.h; sourceTree = "<group>"; };
+		4304F521258648C000E1086E /* concentrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = concentrator.h; sourceTree = "<group>"; };
+		4304F522258648C000E1086E /* acap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acap.h; sourceTree = "<group>"; };
+		4304F523258648C000E1086E /* ldap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldap.h; sourceTree = "<group>"; };
+		4304F524258648C000E1086E /* searchwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchwin.h; sourceTree = "<group>"; };
+		4304F525258648C000E1086E /* downloadurl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = downloadurl.h; sourceTree = "<group>"; };
+		4304F526258648C000E1086E /* text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
+		4304F527258648C000E1086E /* ends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ends.h; sourceTree = "<group>"; };
+		4304F528258648C000E1086E /* header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		4304F529258648C000E1086E /* imapauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapauth.h; sourceTree = "<group>"; };
+		4304F52A258648C000E1086E /* EudoraTypes.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = EudoraTypes.r; sourceTree = "<group>"; };
+		4304F52B258648C000E1086E /* StrnDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrnDefs.h; sourceTree = "<group>"; };
+		4304F52C258648C000E1086E /* FiltDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltDefs.h; sourceTree = "<group>"; };
+		4304F52D258648C000E1086E /* msinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msinfo.h; sourceTree = "<group>"; };
+		4304F52E258648C000E1086E /* features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = features.h; sourceTree = "<group>"; };
+		4304F52F258648C000E1086E /* light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = light.h; sourceTree = "<group>"; };
+		4304F530258648C000E1086E /* mstore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mstore.h; sourceTree = "<group>"; };
+		4304F531258648C000E1086E /* MyRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRes.h; sourceTree = "<group>"; };
+		4304F532258648C000E1086E /* mailxfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailxfer.h; sourceTree = "<group>"; };
+		4304F533258648C000E1086E /* spell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spell.h; sourceTree = "<group>"; };
+		4304F534258648C000E1086E /* featureldef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = featureldef.h; sourceTree = "<group>"; };
+		4304F535258648C000E1086E /* icon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icon.h; sourceTree = "<group>"; };
+		4304F536258648C000E1086E /* nickmng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nickmng.h; sourceTree = "<group>"; };
+		4304F537258648C000E1086E /* find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = find.h; sourceTree = "<group>"; };
+		4304F538258648C000E1086E /* osxabsyncinc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osxabsyncinc.h; sourceTree = "<group>"; };
+		4304F539258648C000E1086E /* nickae.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nickae.h; sourceTree = "<group>"; };
+		4304F53A258648C000E1086E /* prefdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefdefs.h; sourceTree = "<group>"; };
+		4304F53B258648C000E1086E /* OpenSSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSSL.h; sourceTree = "<group>"; };
+		4304F53C258648C000E1086E /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		4304F53D258648C000E1086E /* ctb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctb.h; sourceTree = "<group>"; };
+		4304F53E258648C000E1086E /* fileutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileutil.h; sourceTree = "<group>"; };
+		4304F53F258648C000E1086E /* tabmania.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabmania.h; sourceTree = "<group>"; };
+		4304F540258648C000E1086E /* threading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threading.h; sourceTree = "<group>"; };
+		4304F541258648C000E1086E /* CodeFragmentsSupplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeFragmentsSupplement.h; sourceTree = "<group>"; };
+		4304F542258648C000E1086E /* appcdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appcdef.h; sourceTree = "<group>"; };
+		4304F543258648C000E1086E /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		4304F544258648C000E1086E /* cboxact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cboxact.h; sourceTree = "<group>"; };
+		4304F545258648C000E1086E /* macslip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macslip.h; sourceTree = "<group>"; };
+		4304F546258648C000E1086E /* address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = address.h; sourceTree = "<group>"; };
+		4304F547258648C000E1086E /* junk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = junk.h; sourceTree = "<group>"; };
+		4304F548258648C000E1086E /* tlapi-MacGlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tlapi-MacGlue.h"; sourceTree = "<group>"; };
+		4304F549258648C000E1086E /* rich.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rich.h; sourceTree = "<group>"; };
+		4304F54A258648C000E1086E /* wrappers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wrappers.h; sourceTree = "<group>"; };
+		4304F54B258648C000E1086E /* inet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inet.h; sourceTree = "<group>"; };
+		4304F54C258648C000E1086E /* task_ldef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = task_ldef.h; sourceTree = "<group>"; };
+		4304F54D258648C000E1086E /* compact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compact.h; sourceTree = "<group>"; };
+		4304F54E258648C000E1086E /* uupc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uupc.h; sourceTree = "<group>"; };
+		4304F54F258648C000E1086E /* utl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utl.h; sourceTree = "<group>"; };
+		4304F550258648C000E1086E /* shame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shame.h; sourceTree = "<group>"; };
+		4304F551258648C000E1086E /* toc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toc.h; sourceTree = "<group>"; };
+		4304F552258648C000E1086E /* scriptmenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scriptmenu.h; sourceTree = "<group>"; };
+		4304F553258648C000E1086E /* message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = message.h; sourceTree = "<group>"; };
+		4304F554258648C000E1086E /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		4304F555258648C000E1086E /* mailbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailbox.h; sourceTree = "<group>"; };
+		4304F556258648C000E1086E /* buildtoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buildtoc.h; sourceTree = "<group>"; };
+		4304F557258648C000E1086E /* dial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dial.h; sourceTree = "<group>"; };
+		4304F558258648C000E1086E /* floatingwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floatingwin.h; sourceTree = "<group>"; };
+		4304F559258648C000E1086E /* msiddb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msiddb.h; sourceTree = "<group>"; };
+		4304F55A258648C000E1086E /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		4304F55B258648C000E1086E /* ldaputils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldaputils.h; sourceTree = "<group>"; };
+		4304F55C258648C000E1086E /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		4304F55D258648C000E1086E /* buildversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buildversion.h; sourceTree = "<group>"; };
+		4304F55E258648C000E1086E /* makefilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = makefilter.h; sourceTree = "<group>"; };
+		4304F55F258648C000E1086E /* vcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vcard.h; sourceTree = "<group>"; };
+		4304F560258648C000E1086E /* pgpout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pgpout.h; sourceTree = "<group>"; };
+		4304F561258648C000E1086E /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		4304F562258648C000E1086E /* dflutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dflutils.h; sourceTree = "<group>"; };
+		4304F563258648C000E1086E /* unicodeprofile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicodeprofile.h; sourceTree = "<group>"; };
+		4304F564258648C000E1086E /* cursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cursor.h; sourceTree = "<group>"; };
+		4304F565258648C000E1086E /* taskProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taskProgress.h; sourceTree = "<group>"; };
+		4304F566258648C000E1086E /* prefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefs.h; sourceTree = "<group>"; };
+		4304F567258648C000E1086E /* unicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicode.h; sourceTree = "<group>"; };
+		4304F568258648C000E1086E /* linkmng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linkmng.h; sourceTree = "<group>"; };
+		4304F569258648C000E1086E /* statwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statwin.h; sourceTree = "<group>"; };
+		4304F56A258648C000E1086E /* labelfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = labelfield.h; sourceTree = "<group>"; };
+		4304F56B258648C000E1086E /* uudecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uudecode.h; sourceTree = "<group>"; };
+		4304F56C258648C000E1086E /* listview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listview.h; sourceTree = "<group>"; };
+		4304F56D258648C000E1086E /* fileview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileview.h; sourceTree = "<group>"; };
+		4304F56E258648C000E1086E /* speechutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speechutil.h; sourceTree = "<group>"; };
+		4304F56F258648C000E1086E /* filtthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filtthread.h; sourceTree = "<group>"; };
+		4304F570258648C000E1086E /* filtmng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filtmng.h; sourceTree = "<group>"; };
+		4304F571258648C000E1086E /* binhex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binhex.h; sourceTree = "<group>"; };
+		4304F572258648C000E1086E /* lber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lber.h; sourceTree = "<group>"; };
+		4304F573258648C000E1086E /* menusharing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menusharing.h; sourceTree = "<group>"; };
+		4304F574258648C000E1086E /* proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
+		4304F575258648C000E1086E /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		4304F576258648C000E1086E /* url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = url.h; sourceTree = "<group>"; };
+		4304F577258648C000E1086E /* xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xml.h; sourceTree = "<group>"; };
+		4304F578258648C000E1086E /* numcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numcode.h; sourceTree = "<group>"; };
+		4304F579258648C000E1086E /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		4304F57A258648C000E1086E /* mywindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mywindow.h; sourceTree = "<group>"; };
+		4304F57B258648C000E1086E /* timebomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timebomb.h; sourceTree = "<group>"; };
+		4304F57C258648C000E1086E /* mbdrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbdrawer.h; sourceTree = "<group>"; };
+		4304F57D258648C000E1086E /* hexbin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hexbin.h; sourceTree = "<group>"; };
+		4304F57E258648C000E1086E /* auditdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auditdefs.h; sourceTree = "<group>"; };
+		4304F57F258648C000E1086E /* winutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winutil.h; sourceTree = "<group>"; };
+		4304F580258648C000E1086E /* menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menu.h; sourceTree = "<group>"; };
+		4304F581258648C000E1086E /* lmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmgr.h; sourceTree = "<group>"; };
+		4304F582258648C000E1086E /* adutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adutil.h; sourceTree = "<group>"; };
+		4304F583258648C000E1086E /* filegraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filegraphic.h; sourceTree = "<group>"; };
+		4304F584258648C000E1086E /* mbwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbwin.h; sourceTree = "<group>"; };
+		4304F585258648C000E1086E /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		4304F586258648C000E1086E /* pop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pop.h; sourceTree = "<group>"; };
+		4304F587258648C000E1086E /* paywin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paywin.h; sourceTree = "<group>"; };
+		4304F588258648C000E1086E /* emoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emoticon.h; sourceTree = "<group>"; };
+		4304F589258648C000E1086E /* imapdownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapdownload.h; sourceTree = "<group>"; };
+		4304F58A258648C000E1086E /* print.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = print.h; sourceTree = "<group>"; };
+		4304F58B258648C000E1086E /* msmaildb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msmaildb.h; sourceTree = "<group>"; };
+		4304F58C258648C000E1086E /* carboncompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carboncompat.h; sourceTree = "<group>"; };
+		4304F58D258648C000E1086E /* functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		4304F58E258648C000E1086E /* toolbarpopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toolbarpopup.h; sourceTree = "<group>"; };
+		4304F58F258648C000E1086E /* mstoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mstoc.h; sourceTree = "<group>"; };
+		4304F590258648C000E1086E /* PPC.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = PPC.r; sourceTree = "<group>"; };
+		4304F591258648C000E1086E /* table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
+		4304F592258648C000E1086E /* stationerywin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stationerywin.h; sourceTree = "<group>"; };
+		4304F593258648C000E1086E /* StringDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringDefs.h; sourceTree = "<group>"; };
+		4304F594258648C000E1086E /* import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = import.h; sourceTree = "<group>"; };
+		4304F595258648C000E1086E /* personalitieswin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personalitieswin.h; sourceTree = "<group>"; };
+		4304F596258648C000E1086E /* toolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toolbar.h; sourceTree = "<group>"; };
+		4304F597258648C000E1086E /* ph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ph.h; sourceTree = "<group>"; };
+		4304F598258648C000E1086E /* linkwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linkwin.h; sourceTree = "<group>"; };
+		4304F599258648C000E1086E /* navUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navUtils.h; sourceTree = "<group>"; };
+		4304F59A258648C000E1086E /* statmng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statmng.h; sourceTree = "<group>"; };
+		4304F59B258648C000E1086E /* updatewin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = updatewin.h; sourceTree = "<group>"; };
+		4304F59C258648C000E1086E /* sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
+		4304F59D258648C000E1086E /* netscapeplugins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netscapeplugins.h; sourceTree = "<group>"; };
+		4304F59E258648C000E1086E /* sendmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendmail.h; sourceTree = "<group>"; };
+		4304F59F258648C000E1086E /* axsupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = axsupport.h; sourceTree = "<group>"; };
+		4304F5A0258648C000E1086E /* nag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nag.h; sourceTree = "<group>"; };
+		4304F5A1258648C000E1086E /* boxact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boxact.h; sourceTree = "<group>"; };
+		4304F5A2258648C000E1086E /* peteuserpane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peteuserpane.h; sourceTree = "<group>"; };
+		4304F5A3258648C000E1086E /* networksetuplibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = networksetuplibrary.h; sourceTree = "<group>"; };
+		4304F5A4258648C000E1086E /* imapnetlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapnetlib.h; sourceTree = "<group>"; };
+		4304F5A5258648C000E1086E /* MachOWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachOWrapper.h; sourceTree = "<group>"; };
+		4304F5A6258648C000E1086E /* filtwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filtwin.h; sourceTree = "<group>"; };
+		4304F5A7258648C000E1086E /* link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = link.h; sourceTree = "<group>"; };
+		4304F5A8258648C000E1086E /* register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = register.h; sourceTree = "<group>"; };
+		4304F5A9258648C000E1086E /* emsapi-mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "emsapi-mac.h"; sourceTree = "<group>"; };
+		4304F5AA258648C000E1086E /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		4304F5AB258648C000E1086E /* npapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = npapi.h; sourceTree = "<group>"; };
+		4304F5AC258648C000E1086E /* peteglue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peteglue.h; sourceTree = "<group>"; };
+		4304F5AD258648C000E1086E /* osxabsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osxabsync.h; sourceTree = "<group>"; };
+		4304F5AE258648C000E1086E /* fmtbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmtbar.h; sourceTree = "<group>"; };
+		4304F5AF258648C000E1086E /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		4304F5B0258648C000E1086E /* anal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = anal.h; sourceTree = "<group>"; };
+		4304F5B1258648C000E1086E /* euErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = euErrors.h; sourceTree = "<group>"; };
+		4304F5B2258648C000E1086E /* oops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oops.h; sourceTree = "<group>"; };
+		4304F5B3258648C000E1086E /* appear_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appear_util.h; sourceTree = "<group>"; };
+		4304F5B4258648C000E1086E /* FAT.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = FAT.r; sourceTree = "<group>"; };
+		4304F5B5258648C000E1086E /* regexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regexp.h; sourceTree = "<group>"; };
+		4304F5B6258648C000E1086E /* appleevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appleevent.h; sourceTree = "<group>"; };
+		4304F5B7258648C000E1086E /* dflsuppl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dflsuppl.h; sourceTree = "<group>"; };
+		4304F5B8258648C000E1086E /* 68K.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = 68K.r; sourceTree = "<group>"; };
+		4304F5B9258648C000E1086E /* carbonutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carbonutil.h; sourceTree = "<group>"; };
+		4304F5BA258648C000E1086E /* schizo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = schizo.h; sourceTree = "<group>"; };
+		4304F5BB258648C000E1086E /* imapconnections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapconnections.h; sourceTree = "<group>"; };
+		4304F5BC258648C000E1086E /* wazoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wazoo.h; sourceTree = "<group>"; };
+		4304F5BD258648C000E1086E /* filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filters.h; sourceTree = "<group>"; };
+		4304F5BE258648C000E1086E /* TransStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransStream.h; sourceTree = "<group>"; };
+		4304F5BF258648C000E1086E /* filtrun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filtrun.h; sourceTree = "<group>"; };
+		4304F5C0258648C000E1086E /* aeutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aeutil.h; sourceTree = "<group>"; };
+		4304F5C1258648C000E1086E /* signaturewin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signaturewin.h; sourceTree = "<group>"; };
+		4304F5C2258648C000E1086E /* tefuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tefuncs.h; sourceTree = "<group>"; };
+		4304F5C6258648C100E1086E /* newhtml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = newhtml.c; path = ../../Eudora/V624/newhtml.c; sourceTree = "<group>"; };
+		4304F5C7258648C100E1086E /* toolbar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = toolbar.c; path = ../../Eudora/V624/toolbar.c; sourceTree = "<group>"; };
+		4304F5C8258648C100E1086E /* linkwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = linkwin.c; path = ../../Eudora/V624/linkwin.c; sourceTree = "<group>"; };
+		4304F5C9258648C100E1086E /* palmconduitae.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = palmconduitae.c; path = ../../Eudora/V624/palmconduitae.c; sourceTree = "<group>"; };
+		4304F5CA258648C100E1086E /* threading.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = threading.c; path = ../../Eudora/V624/threading.c; sourceTree = "<group>"; };
+		4304F5CB258648C100E1086E /* schizo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = schizo.c; path = ../../Eudora/V624/schizo.c; sourceTree = "<group>"; };
+		4304F5CC258648C100E1086E /* shame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = shame.c; path = ../../Eudora/V624/shame.c; sourceTree = "<group>"; };
+		4304F5CD258648C200E1086E /* trans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = trans.c; path = ../../Eudora/V624/trans.c; sourceTree = "<group>"; };
+		4304F5CE258648C200E1086E /* mbwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mbwin.c; path = ../../Eudora/V624/mbwin.c; sourceTree = "<group>"; };
+		4304F5CF258648C200E1086E /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md5.c; path = ../../Eudora/V624/md5.c; sourceTree = "<group>"; };
+		4304F5D0258648C200E1086E /* messact.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = messact.c; path = ../../Eudora/V624/messact.c; sourceTree = "<group>"; };
+		4304F5D1258648C200E1086E /* navUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = navUtils.c; path = ../../Eudora/V624/navUtils.c; sourceTree = "<group>"; };
+		4304F5D2258648C200E1086E /* menu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = menu.c; path = ../../Eudora/V624/menu.c; sourceTree = "<group>"; };
+		4304F5D3258648C200E1086E /* uudecode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uudecode.c; path = ../../Eudora/V624/uudecode.c; sourceTree = "<group>"; };
+		4304F5D4258648C300E1086E /* lex822.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lex822.c; path = ../../Eudora/V624/lex822.c; sourceTree = "<group>"; };
+		4304F5D5258648C300E1086E /* textw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = textw.c; path = ../../Eudora/V624/textw.c; sourceTree = "<group>"; };
+		4304F5D6258648C300E1086E /* UnloadSeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UnloadSeg.c; path = ../../Eudora/V624/UnloadSeg.c; sourceTree = "<group>"; };
+		4304F5D7258648C300E1086E /* aeutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aeutil.c; path = ../../Eudora/V624/aeutil.c; sourceTree = "<group>"; };
+		4304F5D8258648C300E1086E /* mailbox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mailbox.c; path = ../../Eudora/V624/mailbox.c; sourceTree = "<group>"; };
+		4304F5D9258648C300E1086E /* message.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = message.c; path = ../../Eudora/V624/message.c; sourceTree = "<group>"; };
+		4304F5DA258648C300E1086E /* anal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = anal.c; path = ../../Eudora/V624/anal.c; sourceTree = "<group>"; };
+		4304F5DB258648C300E1086E /* table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = table.c; path = ../../Eudora/V624/table.c; sourceTree = "<group>"; };
+		4304F5DC258648C400E1086E /* osxabsync.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = osxabsync.cp; path = ../../Eudora/V624/osxabsync.cp; sourceTree = "<group>"; };
+		4304F5DD258648C400E1086E /* register.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = register.c; path = ../../Eudora/V624/register.c; sourceTree = "<group>"; };
+		4304F5DE258648C400E1086E /* multi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = multi.c; path = ../../Eudora/V624/multi.c; sourceTree = "<group>"; };
+		4304F5DF258648C400E1086E /* uupc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uupc.c; path = ../../Eudora/V624/uupc.c; sourceTree = "<group>"; };
+		4304F5E0258648C400E1086E /* paywin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = paywin.c; path = ../../Eudora/V624/paywin.c; sourceTree = "<group>"; };
+		4304F5E1258648C400E1086E /* wrappers.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wrappers.cp; path = ../../Eudora/V624/wrappers.cp; sourceTree = "<group>"; };
+		4304F5E2258648C400E1086E /* TransStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TransStream.c; path = ../../Eudora/V624/TransStream.c; sourceTree = "<group>"; };
+		4304F5E3258648C400E1086E /* listcdef.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = listcdef.c; path = ../../Eudora/V624/listcdef.c; sourceTree = "<group>"; };
+		4304F5E4258648C400E1086E /* mime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mime.c; path = ../../Eudora/V624/mime.c; sourceTree = "<group>"; };
+		4304F5E5258648C400E1086E /* peteuserpane.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = peteuserpane.c; path = ../../Eudora/V624/peteuserpane.c; sourceTree = "<group>"; };
+		4304F5E6258648C500E1086E /* link.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = link.c; path = ../../Eudora/V624/link.c; sourceTree = "<group>"; };
+		4304F5E7258648C500E1086E /* nickwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nickwin.c; path = ../../Eudora/V624/nickwin.c; sourceTree = "<group>"; };
+		4304F5E8258648C500E1086E /* statmng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = statmng.c; path = ../../Eudora/V624/statmng.c; sourceTree = "<group>"; };
+		4304F5E9258648C500E1086E /* tefuncs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tefuncs.c; path = ../../Eudora/V624/tefuncs.c; sourceTree = "<group>"; };
+		4304F5EA258648C500E1086E /* updatewin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = updatewin.c; path = ../../Eudora/V624/updatewin.c; sourceTree = "<group>"; };
+		4304F5EB258648C500E1086E /* stickypopup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stickypopup.c; path = ../../Eudora/V624/stickypopup.c; sourceTree = "<group>"; };
+		4304F5EC258648C500E1086E /* msinfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msinfo.c; path = ../../Eudora/V624/msinfo.c; sourceTree = "<group>"; };
+		4304F5ED258648C500E1086E /* vcard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vcard.c; path = ../../Eudora/V624/vcard.c; sourceTree = "<group>"; };
+		4304F5EE258648C500E1086E /* statwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = statwin.c; path = ../../Eudora/V624/statwin.c; sourceTree = "<group>"; };
+		4304F5EF258648C500E1086E /* task_ldef.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = task_ldef.c; path = ../../Eudora/V624/task_ldef.c; sourceTree = "<group>"; };
+		4304F5F0258648C500E1086E /* mstoc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mstoc.c; path = ../../Eudora/V624/mstoc.c; sourceTree = "<group>"; };
+		4304F5F1258648C500E1086E /* sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sort.c; path = ../../Eudora/V624/sort.c; sourceTree = "<group>"; };
+		4304F5F2258648C600E1086E /* proxy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = proxy.c; path = ../../Eudora/V624/proxy.c; sourceTree = "<group>"; };
+		4304F5F3258648C600E1086E /* mbdrawer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mbdrawer.c; path = ../../Eudora/V624/mbdrawer.c; sourceTree = "<group>"; };
+		4304F5F4258648C600E1086E /* progress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = progress.c; path = ../../Eudora/V624/progress.c; sourceTree = "<group>"; };
+		4304F5F5258648C600E1086E /* mstore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mstore.c; path = ../../Eudora/V624/mstore.c; sourceTree = "<group>"; };
+		4304F5F6258648C600E1086E /* linkmng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = linkmng.c; path = ../../Eudora/V624/linkmng.c; sourceTree = "<group>"; };
+		4304F5F7258648C600E1086E /* ldaplibglue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ldaplibglue.c; path = ../../Eudora/V624/ldaplibglue.c; sourceTree = "<group>"; };
+		4304F5F8258648C600E1086E /* labelfield.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = labelfield.c; path = ../../Eudora/V624/labelfield.c; sourceTree = "<group>"; };
+		4304F5F9258648C600E1086E /* modeless.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = modeless.c; path = ../../Eudora/V624/modeless.c; sourceTree = "<group>"; };
+		4304F5FA258648C700E1086E /* listview.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = listview.c; path = ../../Eudora/V624/listview.c; sourceTree = "<group>"; };
+		4304F5FB258648C700E1086E /* msiddb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msiddb.c; path = ../../Eudora/V624/msiddb.c; sourceTree = "<group>"; };
+		4304F5FC258648C700E1086E /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../Eudora/V624/main.c; sourceTree = "<group>"; };
+		4304F5FD258648C700E1086E /* lineio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lineio.c; path = ../../Eudora/V624/lineio.c; sourceTree = "<group>"; };
+		4304F5FE258648C700E1086E /* wazoo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wazoo.c; path = ../../Eudora/V624/wazoo.c; sourceTree = "<group>"; };
+		4304F5FF258648C700E1086E /* utl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = utl.c; path = ../../Eudora/V624/utl.c; sourceTree = "<group>"; };
+		4304F600258648C700E1086E /* signaturewin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = signaturewin.c; path = ../../Eudora/V624/signaturewin.c; sourceTree = "<group>"; };
+		4304F601258648C700E1086E /* nickae.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nickae.c; path = ../../Eudora/V624/nickae.c; sourceTree = "<group>"; };
+		4304F602258648C800E1086E /* prefaudit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = prefaudit.c; path = ../../Eudora/V624/prefaudit.c; sourceTree = "<group>"; };
+		4304F603258648C800E1086E /* OpenSSL.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OpenSSL.cp; path = ../../Eudora/V624/OpenSSL.cp; sourceTree = "<group>"; };
+		4304F604258648C800E1086E /* sysdefs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysdefs.c; path = ../../Eudora/V624/sysdefs.c; sourceTree = "<group>"; };
+		4304F605258648C800E1086E /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = log.c; path = ../../Eudora/V624/log.c; sourceTree = "<group>"; };
+		4304F606258648C800E1086E /* preflimits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = preflimits.c; path = ../../Eudora/V624/preflimits.c; sourceTree = "<group>"; };
+		4304F607258648C800E1086E /* toolbarpopup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = toolbarpopup.c; path = ../../Eudora/V624/toolbarpopup.c; sourceTree = "<group>"; };
+		4304F608258648C800E1086E /* url.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = url.c; path = ../../Eudora/V624/url.c; sourceTree = "<group>"; };
+		4304F609258648C800E1086E /* unicode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unicode.c; path = ../../Eudora/V624/unicode.c; sourceTree = "<group>"; };
+		4304F60A258648C800E1086E /* taskProgress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = taskProgress.c; path = ../../Eudora/V624/taskProgress.c; sourceTree = "<group>"; };
+		4304F60B258648C900E1086E /* tlate_ldef.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tlate_ldef.c; path = ../../Eudora/V624/tlate_ldef.c; sourceTree = "<group>"; };
+		4304F60C258648C900E1086E /* pop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pop.c; path = ../../Eudora/V624/pop.c; sourceTree = "<group>"; };
+		4304F60D258648C900E1086E /* peteglue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = peteglue.c; path = ../../Eudora/V624/peteglue.c; sourceTree = "<group>"; };
+		4304F60E258648C900E1086E /* acap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = acap.c; path = ../../Eudora/V624/acap.c; sourceTree = "<group>"; };
+		4304F60F258648C900E1086E /* nickmng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nickmng.c; path = ../../Eudora/V624/nickmng.c; sourceTree = "<group>"; };
+		4304F610258648C900E1086E /* personalitieswin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = personalitieswin.c; path = ../../Eudora/V624/personalitieswin.c; sourceTree = "<group>"; };
+		4304F611258648C900E1086E /* mywindow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mywindow.c; path = ../../Eudora/V624/mywindow.c; sourceTree = "<group>"; };
+		4304F612258648C900E1086E /* sslCerts.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sslCerts.cp; path = ../../Eudora/V624/sslCerts.cp; sourceTree = "<group>"; };
+		4304F613258648C900E1086E /* prefenable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = prefenable.c; path = ../../Eudora/V624/prefenable.c; sourceTree = "<group>"; };
+		4304F614258648CA00E1086E /* regexp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = regexp.c; path = ../../Eudora/V624/regexp.c; sourceTree = "<group>"; };
+		4304F615258648CA00E1086E /* spool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spool.c; path = ../../Eudora/V624/spool.c; sourceTree = "<group>"; };
+		4304F616258648CA00E1086E /* speechutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = speechutil.c; path = ../../Eudora/V624/speechutil.c; sourceTree = "<group>"; };
+		4304F617258648CA00E1086E /* msmaildb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msmaildb.c; path = ../../Eudora/V624/msmaildb.c; sourceTree = "<group>"; };
+		4304F618258648CA00E1086E /* squish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = squish.c; path = ../../Eudora/V624/squish.c; sourceTree = "<group>"; };
+		4304F619258648CA00E1086E /* prefs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = prefs.c; path = ../../Eudora/V624/prefs.c; sourceTree = "<group>"; };
+		4304F61A258648CA00E1086E /* ldaputils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ldaputils.c; path = ../../Eudora/V624/ldaputils.c; sourceTree = "<group>"; };
+		4304F61B258648CA00E1086E /* scriptmenu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scriptmenu.c; path = ../../Eudora/V624/scriptmenu.c; sourceTree = "<group>"; };
+		4304F61C258648CB00E1086E /* tcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tcp.c; path = ../../Eudora/V624/tcp.c; sourceTree = "<group>"; };
+		4304F61D258648CB00E1086E /* timebomb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = timebomb.c; path = ../../Eudora/V624/timebomb.c; sourceTree = "<group>"; };
+		4304F61E258648CB00E1086E /* sendmail.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sendmail.c; path = ../../Eudora/V624/sendmail.c; sourceTree = "<group>"; };
+		4304F61F258648CB00E1086E /* searchwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = searchwin.c; path = ../../Eudora/V624/searchwin.c; sourceTree = "<group>"; };
+		4304F620258648CB00E1086E /* pgpout.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pgpout.c; path = ../../Eudora/V624/pgpout.c; sourceTree = "<group>"; };
+		4304F621258648CB00E1086E /* sasl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sasl.c; path = ../../Eudora/V624/sasl.c; sourceTree = "<group>"; };
+		4304F622258648CB00E1086E /* address.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = address.c; path = ../../Eudora/V624/address.c; sourceTree = "<group>"; };
+		4304F623258648CB00E1086E /* stationerywin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stationerywin.c; path = ../../Eudora/V624/stationerywin.c; sourceTree = "<group>"; };
+		4304F624258648CB00E1086E /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = util.c; path = ../../Eudora/V624/util.c; sourceTree = "<group>"; };
+		4304F625258648CB00E1086E /* search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = search.c; path = ../../Eudora/V624/search.c; sourceTree = "<group>"; };
+		4304F626258648CB00E1086E /* adutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adutil.c; path = ../../Eudora/V624/adutil.c; sourceTree = "<group>"; };
+		4304F627258648CC00E1086E /* ldef.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ldef.c; path = ../../Eudora/V624/ldef.c; sourceTree = "<group>"; };
+		4304F628258648CC00E1086E /* pgpin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pgpin.c; path = ../../Eudora/V624/pgpin.c; sourceTree = "<group>"; };
+		4304F62A258648CC00E1086E /* fs_mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fs_mac.c; sourceTree = "<group>"; };
+		4304F62B258648CC00E1086E /* netmsg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = netmsg.c; sourceTree = "<group>"; };
+		4304F62C258648CC00E1086E /* ftl_mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftl_mac.c; sourceTree = "<group>"; };
+		4304F62D258648CC00E1086E /* mail.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mail.c; sourceTree = "<group>"; };
+		4304F62E258648CC00E1086E /* smanager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = smanager.c; sourceTree = "<group>"; };
+		4304F62F258648CC00E1086E /* env_mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = env_mac.c; sourceTree = "<group>"; };
+		4304F630258648CC00E1086E /* auth_log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = auth_log.c; sourceTree = "<group>"; };
+		4304F631258648CC00E1086E /* rfc822.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rfc822.c; sourceTree = "<group>"; };
+		4304F633258648CC00E1086E /* env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env.h; sourceTree = "<group>"; };
+		4304F634258648CC00E1086E /* nl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nl.h; sourceTree = "<group>"; };
+		4304F635258648CC00E1086E /* osdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osdep.h; sourceTree = "<group>"; };
+		4304F636258648CC00E1086E /* imap4r1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imap4r1.h; sourceTree = "<group>"; };
+		4304F637258648CC00E1086E /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		4304F638258648CC00E1086E /* linkage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linkage.h; sourceTree = "<group>"; };
+		4304F639258648CC00E1086E /* ftl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftl.h; sourceTree = "<group>"; };
+		4304F63A258648CC00E1086E /* os_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_mac.h; sourceTree = "<group>"; };
+		4304F63B258648CC00E1086E /* mail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mail.h; sourceTree = "<group>"; };
+		4304F63C258648CC00E1086E /* netmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netmsg.h; sourceTree = "<group>"; };
+		4304F63D258648CC00E1086E /* env_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env_mac.h; sourceTree = "<group>"; };
+		4304F63E258648CC00E1086E /* linkage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linkage.c; sourceTree = "<group>"; };
+		4304F63F258648CC00E1086E /* rfc822.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rfc822.h; sourceTree = "<group>"; };
+		4304F640258648CC00E1086E /* fs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fs.h; sourceTree = "<group>"; };
+		4304F641258648CC00E1086E /* nl_mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nl_mac.c; sourceTree = "<group>"; };
+		4304F642258648CC00E1086E /* mtest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mtest.c; sourceTree = "<group>"; };
+		4304F643258648CC00E1086E /* imap4r1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = imap4r1.c; sourceTree = "<group>"; };
+		4304F644258648CC00E1086E /* linkage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linkage.c; sourceTree = "<group>"; };
+		4304F645258648CC00E1086E /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		4304F646258648CC00E1086E /* auths.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = auths.c; sourceTree = "<group>"; };
+		4304F647258648CC00E1086E /* os_mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_mac.c; sourceTree = "<group>"; };
+		4304F648258648CC00E1086E /* winutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = winutil.c; path = ../../Eudora/V624/winutil.c; sourceTree = "<group>"; };
+		4304F649258648CC00E1086E /* makefilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = makefilter.c; path = ../../Eudora/V624/makefilter.c; sourceTree = "<group>"; };
+		4304F64A258648CC00E1086E /* nickexp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nickexp.c; path = ../../Eudora/V624/nickexp.c; sourceTree = "<group>"; };
+		4304F64B258648CC00E1086E /* lmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lmgr.c; path = ../../Eudora/V624/lmgr.c; sourceTree = "<group>"; };
+		4304F64C258648CC00E1086E /* ssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ssl.c; path = ../../Eudora/V624/ssl.c; sourceTree = "<group>"; };
+		4304F6DA2586495C00E1086E /* acap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acap.swift; sourceTree = "<group>"; };
+		4304F6DF25864A2900E1086E /* address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +587,132 @@
 			isa = PBXGroup;
 			children = (
 				4304F4BB258646FA00E1086E /* EuphoriaApp.swift */,
+				4304F60E258648C900E1086E /* acap.c */,
+				4304F6DA2586495C00E1086E /* acap.swift */,
+				4304F622258648CB00E1086E /* address.c */,
+				4304F6DF25864A2900E1086E /* address.swift */,
+				4304F626258648CB00E1086E /* adutil.c */,
+				4304F4F2258648BE00E1086E /* adwin.c */,
+				4304F5D7258648C300E1086E /* aeutil.c */,
+				4304F5DA258648C300E1086E /* anal.c */,
+				4304F629258648CC00E1086E /* CrispinIMAP */,
+				4304F502258648C000E1086E /* Include */,
+				4304F5F8258648C600E1086E /* labelfield.c */,
+				4304F5F7258648C600E1086E /* ldaplibglue.c */,
+				4304F61A258648CA00E1086E /* ldaputils.c */,
+				4304F627258648CC00E1086E /* ldef.c */,
+				4304F5D4258648C300E1086E /* lex822.c */,
+				4304F4FD258648BF00E1086E /* light.c */,
+				4304F5FD258648C700E1086E /* lineio.c */,
+				4304F5E6258648C500E1086E /* link.c */,
+				4304F5F6258648C600E1086E /* linkmng.c */,
+				4304F5C8258648C100E1086E /* linkwin.c */,
+				4304F5E3258648C400E1086E /* listcdef.c */,
+				4304F5FA258648C700E1086E /* listview.c */,
+				4304F64B258648CC00E1086E /* lmgr.c */,
+				4304F605258648C800E1086E /* log.c */,
+				4304F4F9258648BF00E1086E /* MachOWrapper.cp */,
+				4304F5D8258648C300E1086E /* mailbox.c */,
+				4304F4FF258648BF00E1086E /* mailxfer.c */,
+				4304F5FC258648C700E1086E /* main.c */,
+				4304F649258648CC00E1086E /* makefilter.c */,
+				4304F5F3258648C600E1086E /* mbdrawer.c */,
+				4304F5CE258648C200E1086E /* mbwin.c */,
+				4304F5CF258648C200E1086E /* md5.c */,
+				4304F5D2258648C200E1086E /* menu.c */,
+				4304F500258648C000E1086E /* menusharing.c */,
+				4304F5D0258648C200E1086E /* messact.c */,
+				4304F5D9258648C300E1086E /* message.c */,
+				4304F5E4258648C400E1086E /* mime.c */,
+				4304F5F9258648C600E1086E /* modeless.c */,
+				4304F5FB258648C700E1086E /* msiddb.c */,
+				4304F5EC258648C500E1086E /* msinfo.c */,
+				4304F617258648CA00E1086E /* msmaildb.c */,
+				4304F5F0258648C500E1086E /* mstoc.c */,
+				4304F5F5258648C600E1086E /* mstore.c */,
+				4304F5DE258648C400E1086E /* multi.c */,
+				4304F611258648C900E1086E /* mywindow.c */,
+				4304F4FA258648BF00E1086E /* nag.c */,
+				4304F5D1258648C200E1086E /* navUtils.c */,
+				4304F501258648C000E1086E /* netscapeplugins.c */,
+				4304F4F0258648BE00E1086E /* networksetuplibrary.c */,
+				4304F5C6258648C100E1086E /* newhtml.c */,
+				4304F601258648C700E1086E /* nickae.c */,
+				4304F64A258648CC00E1086E /* nickexp.c */,
+				4304F60F258648C900E1086E /* nickmng.c */,
+				4304F5E7258648C500E1086E /* nickwin.c */,
+				4304F4F6258648BF00E1086E /* oops.c */,
+				4304F603258648C800E1086E /* OpenSSL.cp */,
+				4304F5DC258648C400E1086E /* osxabsync.cp */,
+				4304F5C9258648C100E1086E /* palmconduitae.c */,
+				4304F5E0258648C400E1086E /* paywin.c */,
+				4304F610258648C900E1086E /* personalitieswin.c */,
+				4304F60D258648C900E1086E /* peteglue.c */,
+				4304F5E5258648C400E1086E /* peteuserpane.c */,
+				4304F628258648CC00E1086E /* pgpin.c */,
+				4304F620258648CB00E1086E /* pgpout.c */,
+				4304F4FE258648BF00E1086E /* ph.c */,
+				4304F60C258648C900E1086E /* pop.c */,
+				4304F602258648C800E1086E /* prefaudit.c */,
+				4304F613258648C900E1086E /* prefenable.c */,
+				4304F606258648C800E1086E /* preflimits.c */,
+				4304F619258648CA00E1086E /* prefs.c */,
+				4304F4F5258648BF00E1086E /* print.c */,
+				4304F5F4258648C600E1086E /* progress.c */,
+				4304F5F2258648C600E1086E /* proxy.c */,
+				4304F614258648CA00E1086E /* regexp.c */,
+				4304F5DD258648C400E1086E /* register.c */,
+				4304F4F1258648BE00E1086E /* rich.c */,
+				4304F621258648CB00E1086E /* sasl.c */,
+				4304F5CB258648C100E1086E /* schizo.c */,
+				4304F61B258648CA00E1086E /* scriptmenu.c */,
+				4304F625258648CB00E1086E /* search.c */,
+				4304F61F258648CB00E1086E /* searchwin.c */,
+				4304F61E258648CB00E1086E /* sendmail.c */,
+				4304F4F3258648BE00E1086E /* setldef.c */,
+				4304F5CC258648C100E1086E /* shame.c */,
+				4304F600258648C700E1086E /* signaturewin.c */,
+				4304F5F1258648C500E1086E /* sort.c */,
+				4304F616258648CA00E1086E /* speechutil.c */,
+				4304F4F8258648BF00E1086E /* spell.c */,
+				4304F615258648CA00E1086E /* spool.c */,
+				4304F618258648CA00E1086E /* squish.c */,
+				4304F64C258648CC00E1086E /* ssl.c */,
+				4304F612258648C900E1086E /* sslCerts.cp */,
+				4304F623258648CB00E1086E /* stationerywin.c */,
+				4304F5E8258648C500E1086E /* statmng.c */,
+				4304F5EE258648C500E1086E /* statwin.c */,
+				4304F5EB258648C500E1086E /* stickypopup.c */,
+				4304F4F4258648BF00E1086E /* stringutil.c */,
+				4304F604258648C800E1086E /* sysdefs.c */,
+				4304F5DB258648C300E1086E /* table.c */,
+				4304F4FB258648BF00E1086E /* tabmania.c */,
+				4304F5EF258648C500E1086E /* task_ldef.c */,
+				4304F60A258648C800E1086E /* taskProgress.c */,
+				4304F61C258648CB00E1086E /* tcp.c */,
+				4304F5E9258648C500E1086E /* tefuncs.c */,
+				4304F5D5258648C300E1086E /* textw.c */,
+				4304F5CA258648C100E1086E /* threading.c */,
+				4304F61D258648CB00E1086E /* timebomb.c */,
+				4304F60B258648C900E1086E /* tlate_ldef.c */,
+				4304F4F7258648BF00E1086E /* toc.c */,
+				4304F5C7258648C100E1086E /* toolbar.c */,
+				4304F607258648C800E1086E /* toolbarpopup.c */,
+				4304F5CD258648C200E1086E /* trans.c */,
+				4304F5E2258648C400E1086E /* TransStream.c */,
+				4304F609258648C800E1086E /* unicode.c */,
+				4304F5D6258648C300E1086E /* UnloadSeg.c */,
+				4304F5EA258648C500E1086E /* updatewin.c */,
+				4304F608258648C800E1086E /* url.c */,
+				4304F624258648CB00E1086E /* util.c */,
+				4304F5FF258648C700E1086E /* utl.c */,
+				4304F5D3258648C200E1086E /* uudecode.c */,
+				4304F5DF258648C400E1086E /* uupc.c */,
+				4304F5ED258648C500E1086E /* vcard.c */,
+				4304F5FE258648C700E1086E /* wazoo.c */,
+				4304F648258648CC00E1086E /* winutil.c */,
+				4304F5E1258648C400E1086E /* wrappers.cp */,
+				4304F4FC258648BF00E1086E /* xml.c */,
 				4304F4BD258646FA00E1086E /* ContentView.swift */,
 				4304F4BF258646FC00E1086E /* Assets.xcassets */,
 				4304F4C4258646FC00E1086E /* Persistence.swift */,
@@ -108,6 +720,7 @@
 				4304F4CA258646FC00E1086E /* Euphoria.entitlements */,
 				4304F4C6258646FC00E1086E /* Euphoria.xcdatamodeld */,
 				4304F4C1258646FC00E1086E /* Preview Content */,
+				4304F4EF258648BE00E1086E /* Euphoria-Bridging-Header.h */,
 			);
 			path = Euphoria;
 			sourceTree = "<group>";
@@ -136,6 +749,251 @@
 				4304F4E0258646FC00E1086E /* Info.plist */,
 			);
 			path = EuphoriaUITests;
+			sourceTree = "<group>";
+		};
+		4304F502258648C000E1086E /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				4304F503258648C000E1086E /* imapmailboxes.h */,
+				4304F504258648C000E1086E /* stickypopup.h */,
+				4304F505258648C000E1086E /* ldaplibglue.h */,
+				4304F506258648C000E1086E /* allheaders.h */,
+				4304F507258648C000E1086E /* adwin.h */,
+				4304F508258648C000E1086E /* main.h */,
+				4304F509258648C000E1086E /* nickwin.h */,
+				4304F50A258648C000E1086E /* pgpin.h */,
+				4304F50B258648C000E1086E /* progress.h */,
+				4304F50C258648C000E1086E /* modeless.h */,
+				4304F50D258648C000E1086E /* passwd.h */,
+				4304F50E258648C000E1086E /* tcp.h */,
+				4304F50F258648C000E1086E /* audit.h */,
+				4304F510258648C000E1086E /* squish.h */,
+				4304F511258648C000E1086E /* spool.h */,
+				4304F512258648C000E1086E /* palmconduitae.h */,
+				4304F513258648C000E1086E /* messact.h */,
+				4304F514258648C000E1086E /* myssl.h */,
+				4304F515258648C000E1086E /* trans.h */,
+				4304F516258648C000E1086E /* npupp.h */,
+				4304F517258648C000E1086E /* lex822.h */,
+				4304F518258648C000E1086E /* mime.h */,
+				4304F519258648C000E1086E /* listcdef.h */,
+				4304F51A258648C000E1086E /* lineio.h */,
+				4304F51B258648C000E1086E /* sslCerts.h */,
+				4304F51C258648C000E1086E /* html.h */,
+				4304F51D258648C000E1086E /* sasl.h */,
+				4304F51E258648C000E1086E /* export.h */,
+				4304F51F258648C000E1086E /* nickexp.h */,
+				4304F520258648C000E1086E /* mydefs.h */,
+				4304F521258648C000E1086E /* concentrator.h */,
+				4304F522258648C000E1086E /* acap.h */,
+				4304F523258648C000E1086E /* ldap.h */,
+				4304F524258648C000E1086E /* searchwin.h */,
+				4304F525258648C000E1086E /* downloadurl.h */,
+				4304F526258648C000E1086E /* text.h */,
+				4304F527258648C000E1086E /* ends.h */,
+				4304F528258648C000E1086E /* header.h */,
+				4304F529258648C000E1086E /* imapauth.h */,
+				4304F52A258648C000E1086E /* EudoraTypes.r */,
+				4304F52B258648C000E1086E /* StrnDefs.h */,
+				4304F52C258648C000E1086E /* FiltDefs.h */,
+				4304F52D258648C000E1086E /* msinfo.h */,
+				4304F52E258648C000E1086E /* features.h */,
+				4304F52F258648C000E1086E /* light.h */,
+				4304F530258648C000E1086E /* mstore.h */,
+				4304F531258648C000E1086E /* MyRes.h */,
+				4304F532258648C000E1086E /* mailxfer.h */,
+				4304F533258648C000E1086E /* spell.h */,
+				4304F534258648C000E1086E /* featureldef.h */,
+				4304F535258648C000E1086E /* icon.h */,
+				4304F536258648C000E1086E /* nickmng.h */,
+				4304F537258648C000E1086E /* find.h */,
+				4304F538258648C000E1086E /* osxabsyncinc.h */,
+				4304F539258648C000E1086E /* nickae.h */,
+				4304F53A258648C000E1086E /* prefdefs.h */,
+				4304F53B258648C000E1086E /* OpenSSL.h */,
+				4304F53C258648C000E1086E /* conf.h */,
+				4304F53D258648C000E1086E /* ctb.h */,
+				4304F53E258648C000E1086E /* fileutil.h */,
+				4304F53F258648C000E1086E /* tabmania.h */,
+				4304F540258648C000E1086E /* threading.h */,
+				4304F541258648C000E1086E /* CodeFragmentsSupplement.h */,
+				4304F542258648C000E1086E /* appcdef.h */,
+				4304F543258648C000E1086E /* md5.h */,
+				4304F544258648C000E1086E /* cboxact.h */,
+				4304F545258648C000E1086E /* macslip.h */,
+				4304F546258648C000E1086E /* address.h */,
+				4304F547258648C000E1086E /* junk.h */,
+				4304F548258648C000E1086E /* tlapi-MacGlue.h */,
+				4304F549258648C000E1086E /* rich.h */,
+				4304F54A258648C000E1086E /* wrappers.h */,
+				4304F54B258648C000E1086E /* inet.h */,
+				4304F54C258648C000E1086E /* task_ldef.h */,
+				4304F54D258648C000E1086E /* compact.h */,
+				4304F54E258648C000E1086E /* uupc.h */,
+				4304F54F258648C000E1086E /* utl.h */,
+				4304F550258648C000E1086E /* shame.h */,
+				4304F551258648C000E1086E /* toc.h */,
+				4304F552258648C000E1086E /* scriptmenu.h */,
+				4304F553258648C000E1086E /* message.h */,
+				4304F554258648C000E1086E /* color.h */,
+				4304F555258648C000E1086E /* mailbox.h */,
+				4304F556258648C000E1086E /* buildtoc.h */,
+				4304F557258648C000E1086E /* dial.h */,
+				4304F558258648C000E1086E /* floatingwin.h */,
+				4304F559258648C000E1086E /* msiddb.h */,
+				4304F55A258648C000E1086E /* StringUtil.h */,
+				4304F55B258648C000E1086E /* ldaputils.h */,
+				4304F55C258648C000E1086E /* Globals.h */,
+				4304F55D258648C000E1086E /* buildversion.h */,
+				4304F55E258648C000E1086E /* makefilter.h */,
+				4304F55F258648C000E1086E /* vcard.h */,
+				4304F560258648C000E1086E /* pgpout.h */,
+				4304F561258648C000E1086E /* graph.h */,
+				4304F562258648C000E1086E /* dflutils.h */,
+				4304F563258648C000E1086E /* unicodeprofile.h */,
+				4304F564258648C000E1086E /* cursor.h */,
+				4304F565258648C000E1086E /* taskProgress.h */,
+				4304F566258648C000E1086E /* prefs.h */,
+				4304F567258648C000E1086E /* unicode.h */,
+				4304F568258648C000E1086E /* linkmng.h */,
+				4304F569258648C000E1086E /* statwin.h */,
+				4304F56A258648C000E1086E /* labelfield.h */,
+				4304F56B258648C000E1086E /* uudecode.h */,
+				4304F56C258648C000E1086E /* listview.h */,
+				4304F56D258648C000E1086E /* fileview.h */,
+				4304F56E258648C000E1086E /* speechutil.h */,
+				4304F56F258648C000E1086E /* filtthread.h */,
+				4304F570258648C000E1086E /* filtmng.h */,
+				4304F571258648C000E1086E /* binhex.h */,
+				4304F572258648C000E1086E /* lber.h */,
+				4304F573258648C000E1086E /* menusharing.h */,
+				4304F574258648C000E1086E /* proxy.h */,
+				4304F575258648C000E1086E /* log.h */,
+				4304F576258648C000E1086E /* url.h */,
+				4304F577258648C000E1086E /* xml.h */,
+				4304F578258648C000E1086E /* numcode.h */,
+				4304F579258648C000E1086E /* comp.h */,
+				4304F57A258648C000E1086E /* mywindow.h */,
+				4304F57B258648C000E1086E /* timebomb.h */,
+				4304F57C258648C000E1086E /* mbdrawer.h */,
+				4304F57D258648C000E1086E /* hexbin.h */,
+				4304F57E258648C000E1086E /* auditdefs.h */,
+				4304F57F258648C000E1086E /* winutil.h */,
+				4304F580258648C000E1086E /* menu.h */,
+				4304F581258648C000E1086E /* lmgr.h */,
+				4304F582258648C000E1086E /* adutil.h */,
+				4304F583258648C000E1086E /* filegraphic.h */,
+				4304F584258648C000E1086E /* mbwin.h */,
+				4304F585258648C000E1086E /* util.h */,
+				4304F586258648C000E1086E /* pop.h */,
+				4304F587258648C000E1086E /* paywin.h */,
+				4304F588258648C000E1086E /* emoticon.h */,
+				4304F589258648C000E1086E /* imapdownload.h */,
+				4304F58A258648C000E1086E /* print.h */,
+				4304F58B258648C000E1086E /* msmaildb.h */,
+				4304F58C258648C000E1086E /* carboncompat.h */,
+				4304F58D258648C000E1086E /* functions.h */,
+				4304F58E258648C000E1086E /* toolbarpopup.h */,
+				4304F58F258648C000E1086E /* mstoc.h */,
+				4304F590258648C000E1086E /* PPC.r */,
+				4304F591258648C000E1086E /* table.h */,
+				4304F592258648C000E1086E /* stationerywin.h */,
+				4304F593258648C000E1086E /* StringDefs.h */,
+				4304F594258648C000E1086E /* import.h */,
+				4304F595258648C000E1086E /* personalitieswin.h */,
+				4304F596258648C000E1086E /* toolbar.h */,
+				4304F597258648C000E1086E /* ph.h */,
+				4304F598258648C000E1086E /* linkwin.h */,
+				4304F599258648C000E1086E /* navUtils.h */,
+				4304F59A258648C000E1086E /* statmng.h */,
+				4304F59B258648C000E1086E /* updatewin.h */,
+				4304F59C258648C000E1086E /* sort.h */,
+				4304F59D258648C000E1086E /* netscapeplugins.h */,
+				4304F59E258648C000E1086E /* sendmail.h */,
+				4304F59F258648C000E1086E /* axsupport.h */,
+				4304F5A0258648C000E1086E /* nag.h */,
+				4304F5A1258648C000E1086E /* boxact.h */,
+				4304F5A2258648C000E1086E /* peteuserpane.h */,
+				4304F5A3258648C000E1086E /* networksetuplibrary.h */,
+				4304F5A4258648C000E1086E /* imapnetlib.h */,
+				4304F5A5258648C000E1086E /* MachOWrapper.h */,
+				4304F5A6258648C000E1086E /* filtwin.h */,
+				4304F5A7258648C000E1086E /* link.h */,
+				4304F5A8258648C000E1086E /* register.h */,
+				4304F5A9258648C000E1086E /* emsapi-mac.h */,
+				4304F5AA258648C000E1086E /* search.h */,
+				4304F5AB258648C000E1086E /* npapi.h */,
+				4304F5AC258648C000E1086E /* peteglue.h */,
+				4304F5AD258648C000E1086E /* osxabsync.h */,
+				4304F5AE258648C000E1086E /* fmtbar.h */,
+				4304F5AF258648C000E1086E /* multi.h */,
+				4304F5B0258648C000E1086E /* anal.h */,
+				4304F5B1258648C000E1086E /* euErrors.h */,
+				4304F5B2258648C000E1086E /* oops.h */,
+				4304F5B3258648C000E1086E /* appear_util.h */,
+				4304F5B4258648C000E1086E /* FAT.r */,
+				4304F5B5258648C000E1086E /* regexp.h */,
+				4304F5B6258648C000E1086E /* appleevent.h */,
+				4304F5B7258648C000E1086E /* dflsuppl.h */,
+				4304F5B8258648C000E1086E /* 68K.r */,
+				4304F5B9258648C000E1086E /* carbonutil.h */,
+				4304F5BA258648C000E1086E /* schizo.h */,
+				4304F5BB258648C000E1086E /* imapconnections.h */,
+				4304F5BC258648C000E1086E /* wazoo.h */,
+				4304F5BD258648C000E1086E /* filters.h */,
+				4304F5BE258648C000E1086E /* TransStream.h */,
+				4304F5BF258648C000E1086E /* filtrun.h */,
+				4304F5C0258648C000E1086E /* aeutil.h */,
+				4304F5C1258648C000E1086E /* signaturewin.h */,
+				4304F5C2258648C000E1086E /* tefuncs.h */,
+			);
+			name = Include;
+			path = ../../Eudora/V624/Include;
+			sourceTree = "<group>";
+		};
+		4304F629258648CC00E1086E /* CrispinIMAP */ = {
+			isa = PBXGroup;
+			children = (
+				4304F62A258648CC00E1086E /* fs_mac.c */,
+				4304F62B258648CC00E1086E /* netmsg.c */,
+				4304F62C258648CC00E1086E /* ftl_mac.c */,
+				4304F62D258648CC00E1086E /* mail.c */,
+				4304F62E258648CC00E1086E /* smanager.c */,
+				4304F62F258648CC00E1086E /* env_mac.c */,
+				4304F630258648CC00E1086E /* auth_log.c */,
+				4304F631258648CC00E1086E /* rfc822.c */,
+				4304F632258648CC00E1086E /* Include */,
+				4304F641258648CC00E1086E /* nl_mac.c */,
+				4304F642258648CC00E1086E /* mtest.c */,
+				4304F643258648CC00E1086E /* imap4r1.c */,
+				4304F644258648CC00E1086E /* linkage.c */,
+				4304F645258648CC00E1086E /* misc.c */,
+				4304F646258648CC00E1086E /* auths.c */,
+				4304F647258648CC00E1086E /* os_mac.c */,
+			);
+			name = CrispinIMAP;
+			path = ../../Eudora/V624/CrispinIMAP;
+			sourceTree = "<group>";
+		};
+		4304F632258648CC00E1086E /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				4304F633258648CC00E1086E /* env.h */,
+				4304F634258648CC00E1086E /* nl.h */,
+				4304F635258648CC00E1086E /* osdep.h */,
+				4304F636258648CC00E1086E /* imap4r1.h */,
+				4304F637258648CC00E1086E /* misc.h */,
+				4304F638258648CC00E1086E /* linkage.h */,
+				4304F639258648CC00E1086E /* ftl.h */,
+				4304F63A258648CC00E1086E /* os_mac.h */,
+				4304F63B258648CC00E1086E /* mail.h */,
+				4304F63C258648CC00E1086E /* netmsg.h */,
+				4304F63D258648CC00E1086E /* env_mac.h */,
+				4304F63E258648CC00E1086E /* linkage.c */,
+				4304F63F258648CC00E1086E /* rfc822.h */,
+				4304F640258648CC00E1086E /* fs.h */,
+			);
+			path = Include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +1063,7 @@
 				TargetAttributes = {
 					4304F4B7258646FA00E1086E = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					4304F4CE258646FC00E1086E = {
 						CreatedOnToolsVersion = 12.2;
@@ -267,10 +1126,150 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4304F6B8258648CD00E1086E /* searchwin.c in Sources */,
+				4304F6AB258648CD00E1086E /* sslCerts.cp in Sources */,
+				4304F6BA258648CD00E1086E /* sasl.c in Sources */,
+				4304F67A258648CD00E1086E /* wrappers.cp in Sources */,
+				4304F68F258648CD00E1086E /* linkmng.c in Sources */,
+				4304F687258648CD00E1086E /* statwin.c in Sources */,
+				4304F675258648CD00E1086E /* osxabsync.cp in Sources */,
+				4304F6B7258648CD00E1086E /* sendmail.c in Sources */,
+				4304F6D4258648CD00E1086E /* nickexp.c in Sources */,
+				4304F699258648CD00E1086E /* signaturewin.c in Sources */,
+				4304F6B2258648CD00E1086E /* prefs.c in Sources */,
+				4304F6A4258648CD00E1086E /* tlate_ldef.c in Sources */,
+				4304F6CE258648CD00E1086E /* linkage.c in Sources */,
+				4304F68A258648CD00E1086E /* sort.c in Sources */,
+				4304F6B5258648CD00E1086E /* tcp.c in Sources */,
+				4304F6CD258648CD00E1086E /* imap4r1.c in Sources */,
+				4304F6D6258648CD00E1086E /* ssl.c in Sources */,
+				4304F689258648CD00E1086E /* mstoc.c in Sources */,
+				4304F6AF258648CD00E1086E /* speechutil.c in Sources */,
+				4304F674258648CD00E1086E /* table.c in Sources */,
+				4304F66E258648CD00E1086E /* textw.c in Sources */,
+				4304F666258648CD00E1086E /* trans.c in Sources */,
+				4304F6A3258648CD00E1086E /* taskProgress.c in Sources */,
+				4304F65A258648CD00E1086E /* light.c in Sources */,
+				4304F6C5258648CD00E1086E /* mail.c in Sources */,
+				4304F685258648CD00E1086E /* msinfo.c in Sources */,
+				4304F66D258648CD00E1086E /* lex822.c in Sources */,
+				4304F688258648CD00E1086E /* task_ldef.c in Sources */,
+				4304F654258648CD00E1086E /* toc.c in Sources */,
+				4304F68B258648CD00E1086E /* proxy.c in Sources */,
+				4304F69D258648CD00E1086E /* sysdefs.c in Sources */,
+				4304F6BD258648CD00E1086E /* util.c in Sources */,
+				4304F6CF258648CD00E1086E /* misc.c in Sources */,
+				4304F67E258648CD00E1086E /* peteuserpane.c in Sources */,
+				4304F6B1258648CD00E1086E /* squish.c in Sources */,
+				4304F6B3258648CD00E1086E /* ldaputils.c in Sources */,
+				4304F6D2258648CD00E1086E /* winutil.c in Sources */,
 				4304F4C5258646FC00E1086E /* Persistence.swift in Sources */,
+				4304F6A1258648CD00E1086E /* url.c in Sources */,
+				4304F67F258648CD00E1086E /* link.c in Sources */,
+				4304F6BC258648CD00E1086E /* stationerywin.c in Sources */,
+				4304F6C9258648CD00E1086E /* rfc822.c in Sources */,
+				4304F650258648CD00E1086E /* setldef.c in Sources */,
+				4304F66B258648CD00E1086E /* menu.c in Sources */,
 				4304F4BE258646FA00E1086E /* ContentView.swift in Sources */,
+				4304F66F258648CD00E1086E /* UnloadSeg.c in Sources */,
+				4304F660258648CD00E1086E /* toolbar.c in Sources */,
+				4304F692258648CD00E1086E /* modeless.c in Sources */,
+				4304F65E258648CD00E1086E /* netscapeplugins.c in Sources */,
+				4304F6CA258648CD00E1086E /* linkage.c in Sources */,
+				4304F693258648CD00E1086E /* listview.c in Sources */,
+				4304F683258648CD00E1086E /* updatewin.c in Sources */,
 				4304F4C8258646FC00E1086E /* Euphoria.xcdatamodeld in Sources */,
+				4304F6A8258648CD00E1086E /* nickmng.c in Sources */,
+				4304F69F258648CD00E1086E /* preflimits.c in Sources */,
+				4304F6BF258648CD00E1086E /* adutil.c in Sources */,
+				4304F6D5258648CD00E1086E /* lmgr.c in Sources */,
+				4304F659258648CD00E1086E /* xml.c in Sources */,
+				4304F64D258648CD00E1086E /* networksetuplibrary.c in Sources */,
+				4304F6A6258648CD00E1086E /* peteglue.c in Sources */,
+				4304F6C0258648CD00E1086E /* ldef.c in Sources */,
+				4304F6AE258648CD00E1086E /* spool.c in Sources */,
+				4304F68E258648CD00E1086E /* mstore.c in Sources */,
+				4304F673258648CD00E1086E /* anal.c in Sources */,
+				4304F68D258648CD00E1086E /* progress.c in Sources */,
+				4304F6B6258648CD00E1086E /* timebomb.c in Sources */,
+				4304F6B4258648CD00E1086E /* scriptmenu.c in Sources */,
+				4304F6B9258648CD00E1086E /* pgpout.c in Sources */,
+				4304F6DB2586495C00E1086E /* acap.swift in Sources */,
+				4304F672258648CD00E1086E /* message.c in Sources */,
+				4304F686258648CD00E1086E /* vcard.c in Sources */,
+				4304F671258648CD00E1086E /* mailbox.c in Sources */,
+				4304F694258648CD00E1086E /* msiddb.c in Sources */,
+				4304F678258648CD00E1086E /* uupc.c in Sources */,
+				4304F684258648CD00E1086E /* stickypopup.c in Sources */,
+				4304F661258648CD00E1086E /* linkwin.c in Sources */,
+				4304F69E258648CD00E1086E /* log.c in Sources */,
+				4304F681258648CD00E1086E /* statmng.c in Sources */,
+				4304F695258648CD00E1086E /* main.c in Sources */,
+				4304F6A0258648CD00E1086E /* toolbarpopup.c in Sources */,
+				4304F669258648CD00E1086E /* messact.c in Sources */,
+				4304F6CB258648CD00E1086E /* nl_mac.c in Sources */,
+				4304F691258648CD00E1086E /* labelfield.c in Sources */,
+				4304F665258648CD00E1086E /* shame.c in Sources */,
+				4304F651258648CD00E1086E /* stringutil.c in Sources */,
+				4304F6A7258648CD00E1086E /* acap.c in Sources */,
+				4304F6B0258648CD00E1086E /* msmaildb.c in Sources */,
+				4304F67D258648CD00E1086E /* mime.c in Sources */,
+				4304F696258648CD00E1086E /* lineio.c in Sources */,
+				4304F6CC258648CD00E1086E /* mtest.c in Sources */,
+				4304F663258648CD00E1086E /* threading.c in Sources */,
+				4304F6A9258648CD00E1086E /* personalitieswin.c in Sources */,
+				4304F6D3258648CD00E1086E /* makefilter.c in Sources */,
+				4304F66C258648CD00E1086E /* uudecode.c in Sources */,
+				4304F6BB258648CD00E1086E /* address.c in Sources */,
+				4304F6C7258648CD00E1086E /* env_mac.c in Sources */,
 				4304F4BC258646FA00E1086E /* EuphoriaApp.swift in Sources */,
+				4304F667258648CD00E1086E /* mbwin.c in Sources */,
+				4304F6AC258648CD00E1086E /* prefenable.c in Sources */,
+				4304F6A5258648CD00E1086E /* pop.c in Sources */,
+				4304F658258648CD00E1086E /* tabmania.c in Sources */,
+				4304F69B258648CD00E1086E /* prefaudit.c in Sources */,
+				4304F69A258648CD00E1086E /* nickae.c in Sources */,
+				4304F65C258648CD00E1086E /* mailxfer.c in Sources */,
+				4304F64F258648CD00E1086E /* adwin.c in Sources */,
+				4304F66A258648CD00E1086E /* navUtils.c in Sources */,
+				4304F697258648CD00E1086E /* wazoo.c in Sources */,
+				4304F676258648CD00E1086E /* register.c in Sources */,
+				4304F6AA258648CD00E1086E /* mywindow.c in Sources */,
+				4304F690258648CD00E1086E /* ldaplibglue.c in Sources */,
+				4304F6E025864A2900E1086E /* address.swift in Sources */,
+				4304F6AD258648CD00E1086E /* regexp.c in Sources */,
+				4304F698258648CD00E1086E /* utl.c in Sources */,
+				4304F6BE258648CD00E1086E /* search.c in Sources */,
+				4304F655258648CD00E1086E /* spell.c in Sources */,
+				4304F6A2258648CD00E1086E /* unicode.c in Sources */,
+				4304F65D258648CD00E1086E /* menusharing.c in Sources */,
+				4304F670258648CD00E1086E /* aeutil.c in Sources */,
+				4304F68C258648CD00E1086E /* mbdrawer.c in Sources */,
+				4304F69C258648CD00E1086E /* OpenSSL.cp in Sources */,
+				4304F6C4258648CD00E1086E /* ftl_mac.c in Sources */,
+				4304F653258648CD00E1086E /* oops.c in Sources */,
+				4304F656258648CD00E1086E /* MachOWrapper.cp in Sources */,
+				4304F664258648CD00E1086E /* schizo.c in Sources */,
+				4304F6C8258648CD00E1086E /* auth_log.c in Sources */,
+				4304F677258648CD00E1086E /* multi.c in Sources */,
+				4304F680258648CD00E1086E /* nickwin.c in Sources */,
+				4304F662258648CD00E1086E /* palmconduitae.c in Sources */,
+				4304F67B258648CD00E1086E /* TransStream.c in Sources */,
+				4304F679258648CD00E1086E /* paywin.c in Sources */,
+				4304F6D1258648CD00E1086E /* os_mac.c in Sources */,
+				4304F657258648CD00E1086E /* nag.c in Sources */,
+				4304F64E258648CD00E1086E /* rich.c in Sources */,
+				4304F6D0258648CD00E1086E /* auths.c in Sources */,
+				4304F6C2258648CD00E1086E /* fs_mac.c in Sources */,
+				4304F6C1258648CD00E1086E /* pgpin.c in Sources */,
+				4304F6C3258648CD00E1086E /* netmsg.c in Sources */,
+				4304F668258648CD00E1086E /* md5.c in Sources */,
+				4304F65F258648CD00E1086E /* newhtml.c in Sources */,
+				4304F682258648CD00E1086E /* tefuncs.c in Sources */,
+				4304F67C258648CD00E1086E /* listcdef.c in Sources */,
+				4304F6C6258648CD00E1086E /* smanager.c in Sources */,
+				4304F652258648CD00E1086E /* print.c in Sources */,
+				4304F65B258648CD00E1086E /* ph.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +1425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Euphoria/Euphoria.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -439,6 +1439,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ee.yay.Euphoria;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Euphoria/Euphoria-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -448,6 +1450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Euphoria/Euphoria.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -461,6 +1464,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ee.yay.Euphoria;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Euphoria/Euphoria-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
