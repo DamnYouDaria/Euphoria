@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4304F4BC258646FA00E1086E /* EuphoriaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4BB258646FA00E1086E /* EuphoriaApp.swift */; };
+		4304F4BE258646FA00E1086E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4BD258646FA00E1086E /* ContentView.swift */; };
+		4304F4C0258646FC00E1086E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4304F4BF258646FC00E1086E /* Assets.xcassets */; };
+		4304F4C3258646FC00E1086E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4304F4C2258646FC00E1086E /* Preview Assets.xcassets */; };
+		4304F4C5258646FC00E1086E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4C4258646FC00E1086E /* Persistence.swift */; };
+		4304F4C8258646FC00E1086E /* Euphoria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4C6258646FC00E1086E /* Euphoria.xcdatamodeld */; };
+		4304F4D4258646FC00E1086E /* EuphoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4D3258646FC00E1086E /* EuphoriaTests.swift */; };
+		4304F4DF258646FC00E1086E /* EuphoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F4DE258646FC00E1086E /* EuphoriaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4304F4D0258646FC00E1086E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4304F4B0258646F900E1086E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4304F4B7258646FA00E1086E;
+			remoteInfo = Euphoria;
+		};
+		4304F4DB258646FC00E1086E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4304F4B0258646F900E1086E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4304F4B7258646FA00E1086E;
+			remoteInfo = Euphoria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4304F4B8258646FA00E1086E /* Euphoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Euphoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4304F4BB258646FA00E1086E /* EuphoriaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuphoriaApp.swift; sourceTree = "<group>"; };
+		4304F4BD258646FA00E1086E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4304F4BF258646FC00E1086E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4304F4C2258646FC00E1086E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4304F4C4258646FC00E1086E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4304F4C7258646FC00E1086E /* Euphoria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Euphoria.xcdatamodel; sourceTree = "<group>"; };
+		4304F4C9258646FC00E1086E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4304F4CA258646FC00E1086E /* Euphoria.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Euphoria.entitlements; sourceTree = "<group>"; };
+		4304F4CF258646FC00E1086E /* EuphoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuphoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4304F4D3258646FC00E1086E /* EuphoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuphoriaTests.swift; sourceTree = "<group>"; };
+		4304F4D5258646FC00E1086E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4304F4DA258646FC00E1086E /* EuphoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuphoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4304F4DE258646FC00E1086E /* EuphoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuphoriaUITests.swift; sourceTree = "<group>"; };
+		4304F4E0258646FC00E1086E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4304F4B5258646FA00E1086E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4304F4CC258646FC00E1086E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4304F4D7258646FC00E1086E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4304F4AF258646F900E1086E = {
+			isa = PBXGroup;
+			children = (
+				4304F4BA258646FA00E1086E /* Euphoria */,
+				4304F4D2258646FC00E1086E /* EuphoriaTests */,
+				4304F4DD258646FC00E1086E /* EuphoriaUITests */,
+				4304F4B9258646FA00E1086E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4304F4B9258646FA00E1086E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4304F4B8258646FA00E1086E /* Euphoria.app */,
+				4304F4CF258646FC00E1086E /* EuphoriaTests.xctest */,
+				4304F4DA258646FC00E1086E /* EuphoriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4304F4BA258646FA00E1086E /* Euphoria */ = {
+			isa = PBXGroup;
+			children = (
+				4304F4BB258646FA00E1086E /* EuphoriaApp.swift */,
+				4304F4BD258646FA00E1086E /* ContentView.swift */,
+				4304F4BF258646FC00E1086E /* Assets.xcassets */,
+				4304F4C4258646FC00E1086E /* Persistence.swift */,
+				4304F4C9258646FC00E1086E /* Info.plist */,
+				4304F4CA258646FC00E1086E /* Euphoria.entitlements */,
+				4304F4C6258646FC00E1086E /* Euphoria.xcdatamodeld */,
+				4304F4C1258646FC00E1086E /* Preview Content */,
+			);
+			path = Euphoria;
+			sourceTree = "<group>";
+		};
+		4304F4C1258646FC00E1086E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4304F4C2258646FC00E1086E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4304F4D2258646FC00E1086E /* EuphoriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4304F4D3258646FC00E1086E /* EuphoriaTests.swift */,
+				4304F4D5258646FC00E1086E /* Info.plist */,
+			);
+			path = EuphoriaTests;
+			sourceTree = "<group>";
+		};
+		4304F4DD258646FC00E1086E /* EuphoriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4304F4DE258646FC00E1086E /* EuphoriaUITests.swift */,
+				4304F4E0258646FC00E1086E /* Info.plist */,
+			);
+			path = EuphoriaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4304F4B7258646FA00E1086E /* Euphoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4304F4E3258646FC00E1086E /* Build configuration list for PBXNativeTarget "Euphoria" */;
+			buildPhases = (
+				4304F4B4258646FA00E1086E /* Sources */,
+				4304F4B5258646FA00E1086E /* Frameworks */,
+				4304F4B6258646FA00E1086E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Euphoria;
+			productName = Euphoria;
+			productReference = 4304F4B8258646FA00E1086E /* Euphoria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4304F4CE258646FC00E1086E /* EuphoriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4304F4E6258646FC00E1086E /* Build configuration list for PBXNativeTarget "EuphoriaTests" */;
+			buildPhases = (
+				4304F4CB258646FC00E1086E /* Sources */,
+				4304F4CC258646FC00E1086E /* Frameworks */,
+				4304F4CD258646FC00E1086E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4304F4D1258646FC00E1086E /* PBXTargetDependency */,
+			);
+			name = EuphoriaTests;
+			productName = EuphoriaTests;
+			productReference = 4304F4CF258646FC00E1086E /* EuphoriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4304F4D9258646FC00E1086E /* EuphoriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4304F4E9258646FC00E1086E /* Build configuration list for PBXNativeTarget "EuphoriaUITests" */;
+			buildPhases = (
+				4304F4D6258646FC00E1086E /* Sources */,
+				4304F4D7258646FC00E1086E /* Frameworks */,
+				4304F4D8258646FC00E1086E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4304F4DC258646FC00E1086E /* PBXTargetDependency */,
+			);
+			name = EuphoriaUITests;
+			productName = EuphoriaUITests;
+			productReference = 4304F4DA258646FC00E1086E /* EuphoriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4304F4B0258646F900E1086E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					4304F4B7258646FA00E1086E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					4304F4CE258646FC00E1086E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4304F4B7258646FA00E1086E;
+					};
+					4304F4D9258646FC00E1086E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4304F4B7258646FA00E1086E;
+					};
+				};
+			};
+			buildConfigurationList = 4304F4B3258646F900E1086E /* Build configuration list for PBXProject "Euphoria" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4304F4AF258646F900E1086E;
+			productRefGroup = 4304F4B9258646FA00E1086E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4304F4B7258646FA00E1086E /* Euphoria */,
+				4304F4CE258646FC00E1086E /* EuphoriaTests */,
+				4304F4D9258646FC00E1086E /* EuphoriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4304F4B6258646FA00E1086E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4304F4C3258646FC00E1086E /* Preview Assets.xcassets in Resources */,
+				4304F4C0258646FC00E1086E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4304F4CD258646FC00E1086E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4304F4D8258646FC00E1086E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4304F4B4258646FA00E1086E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4304F4C5258646FC00E1086E /* Persistence.swift in Sources */,
+				4304F4BE258646FA00E1086E /* ContentView.swift in Sources */,
+				4304F4C8258646FC00E1086E /* Euphoria.xcdatamodeld in Sources */,
+				4304F4BC258646FA00E1086E /* EuphoriaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4304F4CB258646FC00E1086E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4304F4D4258646FC00E1086E /* EuphoriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4304F4D6258646FC00E1086E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4304F4DF258646FC00E1086E /* EuphoriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4304F4D1258646FC00E1086E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4304F4B7258646FA00E1086E /* Euphoria */;
+			targetProxy = 4304F4D0258646FC00E1086E /* PBXContainerItemProxy */;
+		};
+		4304F4DC258646FC00E1086E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4304F4B7258646FA00E1086E /* Euphoria */;
+			targetProxy = 4304F4DB258646FC00E1086E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4304F4E1258646FC00E1086E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4304F4E2258646FC00E1086E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4304F4E4258646FC00E1086E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Euphoria/Euphoria.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Euphoria/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Euphoria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ee.yay.Euphoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4304F4E5258646FC00E1086E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Euphoria/Euphoria.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Euphoria/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Euphoria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ee.yay.Euphoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4304F4E7258646FC00E1086E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EuphoriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ee.yay.EuphoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Euphoria.app/Contents/MacOS/Euphoria";
+			};
+			name = Debug;
+		};
+		4304F4E8258646FC00E1086E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EuphoriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ee.yay.EuphoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Euphoria.app/Contents/MacOS/Euphoria";
+			};
+			name = Release;
+		};
+		4304F4EA258646FC00E1086E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EuphoriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ee.yay.EuphoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Euphoria;
+			};
+			name = Debug;
+		};
+		4304F4EB258646FC00E1086E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EuphoriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ee.yay.EuphoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Euphoria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4304F4B3258646F900E1086E /* Build configuration list for PBXProject "Euphoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4304F4E1258646FC00E1086E /* Debug */,
+				4304F4E2258646FC00E1086E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4304F4E3258646FC00E1086E /* Build configuration list for PBXNativeTarget "Euphoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4304F4E4258646FC00E1086E /* Debug */,
+				4304F4E5258646FC00E1086E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4304F4E6258646FC00E1086E /* Build configuration list for PBXNativeTarget "EuphoriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4304F4E7258646FC00E1086E /* Debug */,
+				4304F4E8258646FC00E1086E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4304F4E9258646FC00E1086E /* Build configuration list for PBXNativeTarget "EuphoriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4304F4EA258646FC00E1086E /* Debug */,
+				4304F4EB258646FC00E1086E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4304F4C6258646FC00E1086E /* Euphoria.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4304F4C7258646FC00E1086E /* Euphoria.xcdatamodel */,
+			);
+			currentVersion = 4304F4C7258646FC00E1086E /* Euphoria.xcdatamodel */;
+			path = Euphoria.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4304F4B0258646F900E1086E /* Project object */;
+}
